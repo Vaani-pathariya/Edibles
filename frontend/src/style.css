@@ -1,0 +1,7 @@
+.landing_page{
+    display: flex;
+}
+.landing_page ul{
+    display: flex;
+    list-style: none;
+}
