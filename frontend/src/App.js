@@ -8,6 +8,7 @@ import Blog from './pages/Blog';
 import Post from './pages/Post';
 import Account from './pages/Account';
 import Signup from './pages/Signup';
+import ChangePassword from './pages/ChangePassword';
 import Confirmation from './pages/Confirmation';
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
           </Route>
           <Route path='confirmation' element={<Confirmation/>}></Route> //done
           <Route path='login' element={<Login/>}></Route>               //done
-          <Route path='ChangePassword'></Route>                         //done
+          <Route path='ChangePassword' element={<ChangePassword/>}></Route>                         //done
         </Route>
       </Routes>
     </div>

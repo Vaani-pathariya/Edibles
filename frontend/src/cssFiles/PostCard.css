@@ -1,0 +1,37 @@
+.card-flp{
+    background-color:yellow;
+    width: 17%;
+    color: white;
+    margin:30px;
+    padding: 10px;
+    border-radius: 20px;
+    height: fit-content;
+}
+.card-lp{
+    background-color: #306754;
+    border-radius: 20px;
+    width: 125%;
+    padding: 40px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-title{
+    width: 70%;
+    font-weight: 800;
+    font-size: 30px;
+}
+.design{
+    height: 280px;
+    border: 1px dashed yellow;
+    align-items: end;
+    position: relative;
+    left: 30%;
+    margin-left: 4px;
+}
+@media screen and (max-width:1250px) and (min-width:900px){
+    .card-lp{
+        width: 165%;
+    }
+}

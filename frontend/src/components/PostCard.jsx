@@ -1,16 +1,18 @@
 import React from "react";
-const PostCard=()=>{
+import "../cssFiles/PostCard.css"
+const PostCard=(props)=>{
     return(
-        <>
-        <div>
-            <h1>Name</h1>
-            <h2>Subtitle</h2>
+        <div className="card-flp">
+        <div className="card-lp">
+            {/* <img src="/" alt={props.imgtit} /> */}
+            <div className="card-title">{props.title}</div>
+            <div className=" design design1"></div>
+            <div className=" design design2"></div>
+            <div className=" design design3"></div>
+            <div className=" design design4"></div>
+            <div className=" design design5"></div>
         </div>
-        <div>
-            <h3>Views</h3>
-            <h3>Comments</h3>
         </div>
-        </>
     )
 }
 export default PostCard;

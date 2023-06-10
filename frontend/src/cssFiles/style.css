@@ -1,0 +1,8 @@
+.LandingPageCards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Testimonials{
+    margin: 80px;
+}
+

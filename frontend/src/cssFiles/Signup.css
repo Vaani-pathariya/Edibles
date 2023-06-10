@@ -1,0 +1,77 @@
+.signup{
+    background-image: url('./Bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.signup-box{
+    position: absolute;
+    right: 20%;
+    top:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 40vw;
+    z-index: 1;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color:rgba(222, 184, 135, 0.568);
+}
+.head-signup{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+.signup-box input{
+    margin:5px 0px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    width: 50%;
+}
+.signup-box button{
+background-color:crimson;
+color: white;
+font-size: 18px;
+border: none;
+border-radius: 10px;
+padding: 5px 25px;
+}
+.link-login{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+@media screen and (max-width:1400px) and (min-width:900px){
+    .signup-box{
+        width:50vw;
+        height: 60vh;
+    }
+    .signup-box input{
+        width: 80%;
+    }
+}
+@media screen and (max-width:900px) and (min-width:500px){
+    .signup-box{
+        top: 20%;
+        right: 10%;
+        width:60vw;
+        height: 60vh;
+    }
+    .signup-box input{
+        width: 90%;
+    }
+}
+@media screen and (max-width:500px){
+    .signup-box{
+        right: 10%;
+        width: 80vw;
+        height: 70vh;
+        top: 15%;
+    }
+    .signup-box input{
+        width: 90%;
+    }
+}

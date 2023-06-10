@@ -1,6 +1,7 @@
 import React from "react";
 import logo from '../assets/logo.png'
-import "../style.css"
+import { Link } from "react-router-dom";
+import "../cssFiles/Nav.css"
 const Navbar=()=>{
     return (
         <div className="landing_page">
@@ -9,11 +10,11 @@ const Navbar=()=>{
             <h1>Edibles</h1>
             </div>
             <ul>
-                <li>Home</li>
-                <li>Browse</li>
-                <li>Community</li>
-                <li>Post</li>
-                <li>Signup/Login</li>
+                <li><a href="/">Home</a></li>
+                <li><a href="../browse">Browse</a></li>
+                <li><a href="/">Community</a></li>
+                <li><a href="/post">Post</a></li>
+                <li><Link to="/signup">Signup/Login</Link></li>
             </ul>
         </div>
     )

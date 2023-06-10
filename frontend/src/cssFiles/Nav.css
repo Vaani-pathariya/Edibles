@@ -1,0 +1,37 @@
+.landing_page{
+    display: flex;
+    height: 15vh;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+}
+.landing_page ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 150px;
+}
+.landing_page ul li{
+    margin-left: 80px;
+}
+.landing_page ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.landing_page ul li a:hover{
+    color: #306754;
+}
+
+@media screen and (max-width:1100px){
+    .landing_page ul li{
+        margin-left: 50px;
+    }
+}

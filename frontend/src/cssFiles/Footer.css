@@ -1,0 +1,25 @@
+.footer-first{
+    background-color: black;
+    padding: 50px 0px;
+    text-align: center;
+}
+.icons i{
+    color: #306754;
+    font-size: 35px;
+    margin: 0px 20px;
+}
+.footer-options a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 22px;
+}
+.l{
+    border: 1px solid  rgba(255, 255, 255, 0.644);
+    margin: 0px 25px;
+}
+.footer-second{
+    background-color: #306754;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}

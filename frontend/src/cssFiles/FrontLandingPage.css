@@ -1,0 +1,76 @@
+.flp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 93vh;
+    margin-top: -80px;
+}
+.left-flp{
+    margin: 30px;
+    width: 36%;
+}
+.head-flp{
+    font-size: 50px;
+    color: #306754;
+}
+.description-flp{
+
+margin: 30px 0px;
+}
+.btns-flp{
+    display: flex;
+    align-items: center;
+}
+.orderBtn{
+background:#306754;
+color: white;
+padding: 10px;
+border-radius: 25px;
+box-shadow: none;
+cursor: pointer;
+}
+.pauseBtn{
+    color: #306754;
+    margin: 0px 30px;
+    cursor: pointer;
+    font-size: 35px;
+}
+.position-intro-flp{
+    margin-bottom: 10px;
+    color:rgb(99, 98, 98);
+}
+.desc-photo-intro-flp{
+    display: flex;
+    margin-top: 20px;
+}
+.desc-intro{
+    width: 90%;
+}
+.pic-intro{
+    background-color: yellow;
+    width: 180px;
+    border: 5px dashed yellow;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.head-flp span{
+    background-color: yellow;
+    border-radius: 0px 20px;
+    border: 1px dashed #306754;
+}
+.right-flp img{
+    height: 70vh;
+    border-radius: 30px;
+}
+@media screen and (max-width:1400px) and (min-width:900px){
+    .flp{
+        margin-top: 10px;
+
+    }
+    .head-flp{
+        font-size: 40px;
+    }
+    .name-intro-flp{
+        font-size: 30px;
+    }
+}
